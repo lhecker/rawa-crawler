@@ -1,0 +1,16 @@
+{
+	"name": "rawa-crawler",
+	"version": "0.0.1",
+	"author": {
+		"name" : "Leonard Hecker",
+		"email": "leonard@hecker.io"
+	},
+	"engines": [
+		"node >= 0.10.0"
+	],
+	"main": "index.js",
+	"dependencies": {
+		"request"   : "~2.53.0",
+		"iconv-lite": "~0.4.7"
+	}
+}

@@ -1,0 +1,29 @@
+@-moz-document url-prefix() {
+	fieldset {
+		display: table-cell;
+	}
+}
+
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#search-form {
+	position: relative;
+}
+
+#search-autocomplete {
+	width: 100%;
+	margin-top: -1px;
+}
+
+.table-responsive {
+	margin-top: 40px;
+	-webkit-overflow-scrolling: touch;
+}
+
+th,
+td {
+	width: 16.66666666%;
+}

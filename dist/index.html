@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+	<title>rawa 2.0</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<script src="js/micro.require.js"></script>
+</head>
+<body class="container">
+	<form id="search-form">
+		<div class="input-group">
+			<input class="form-control" id="search" type="search" autocomplete="off" placeholder="A group, lecturer, lesson, or room…"/>
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="submit">
+					<span class="glyphicon glyphicon-search"></span>
+				</button>
+			</span>
+		</div>
+		<ul id="search-autocomplete" class="dropdown-menu"></ul>
+	</form>
+	<div id="temp-tables"></div>
+	<div id="tables"></div>
+	<script async="async" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script async="async" src="rawa.js"></script>
+	<script async="async" src="js/index.js"></script>
+	<script async="async" src="js/search.js"></script>
+	<script async="async" src="js/table.js"></script>
+</body>
